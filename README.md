@@ -1,8 +1,12 @@
 # Estado Edición (Beta)
 Replica de estados WhatsApp beta 
+
 Permite dibujar lineas segun el color que elija y deshacer en caso de equivocarse
+
 Permite agregar Stickers y moverlas 
+
 Por el momento trabaja en canvas diferentes para la imagen y las lineas
+
 No dispone de hacer zoom a los Stickers ,tampoco agregar texto (queda para una futura version)
 
 
