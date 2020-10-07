@@ -11,7 +11,7 @@ No dispone de hacer zoom a los Stickers ,tampoco agregar texto (queda para una f
 
 
 
-<img src="https://user-images.githubusercontent.com/41177884/95377538-521b9780-08a8-11eb-8065-aad726695ec0.jpg" width="300"><img src="https://user-images.githubusercontent.com/41177884/95377545-53e55b00-08a8-11eb-98fb-bfa82e18b68d.jpg" width="300"><img src="https://user-images.githubusercontent.com/41177884/95377550-55168800-08a8-11eb-9ce2-91460dc48f83.jpg" width="300">
+<img src="https://user-images.githubusercontent.com/41177884/95377538-521b9780-08a8-11eb-8065-aad726695ec0.jpg" width="250"><img src="https://user-images.githubusercontent.com/41177884/95377545-53e55b00-08a8-11eb-98fb-bfa82e18b68d.jpg" width="250"><img src="https://user-images.githubusercontent.com/41177884/95377550-55168800-08a8-11eb-9ce2-91460dc48f83.jpg" width="250">
 
 
 
