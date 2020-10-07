@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/herramientas"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <ImageView
+            android:id="@+id/close"
+            android:scaleType="fitXY"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="0"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/close"
+            />
+        <TextView
+            android:id="@+id/TvTituloPLan"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:textColor="#1D1C1A"
+            android:textSize="27sp"
+            android:textStyle="bold"></TextView>
+
+
+
+        <ImageView
+            android:id="@+id/save"
+            android:scaleType="fitXY"
+            android:layout_width="42dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="0"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/save"
+            />
+
+        <ImageView
+            android:id="@+id/sticker"
+            android:scaleType="fitCenter"
+            android:layout_width="42dp"
+            android:layout_height="38dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="0"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/sticker"
+            />
+
+        <ImageView
+            android:id="@+id/undo"
+            android:scaleType="fitXY"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="0"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/undo"
+            />
+
+
+        <RelativeLayout
+            android:id="@+id/CirclePencil"
+            android:background="@drawable/round_widget"
+            android:layout_width="42dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_height="40dp">
+            <RelativeLayout
+                android:elevation="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/paleteColor"
+                    android:layout_width="42dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/pencil"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@color/black_de"
+        android:id="@+id/signLayoutLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/signLayoutImage"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <include layout="@layout/layout_stickers"
+        android:id="@+id/layoutStickers"
+        android:visibility="gone"
+        tools:visibility="gone"/>
+
+
+
+
+</RelativeLayout>
